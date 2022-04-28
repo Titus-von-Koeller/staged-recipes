@@ -1,0 +1,45 @@
+
+package:
+  name: bitsandbytes_cuda{{ cuda_version }}
+  version: 0.26.0 
+
+source:
+  url: {{ pkg_url }}
+  sha256: {{ pkg_sha }}
+
+build:
+  number: 0
+  script_env:
+    - CUDA_VERSION={{ cuda_version }}
+  script: "{{ PYTHON }} -m pip install -vv --force-reinstall ."
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - python
+    - pytorch-gpu
+    - cudatoolkit={{ cuda_version[:-1] + '.' + cuda_version[-1:] }}
+
+test:
+  imports:
+    - bitsandbytes
+    - bitsandbytes.nn
+    - bitsandbytes.optim
+  requires:
+    - pytest
+
+about:
+  home: "http://packages.python.org/bitsandbytes" 
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: "8-bit optimizers and quantization routines."
+  doc_url: https://github.com/facebookresearch/bitsandbytes/edit/main/README.md
+  dev_url: https://github.com/facebookresearch/bitsandbytes
+
+extra:
+  recipe-maintainers:
+    - Titus-von-Koeller
+    - TimDettmers

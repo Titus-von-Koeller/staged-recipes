@@ -1,0 +1,35 @@
+cuda_version:
+  - 92
+  - 100
+  - 101
+  - 102
+  - 110
+  - 111
+  - 112
+  - 113
+
+pkg_url:
+  - "https://files.pythonhosted.org/packages/32/c6/64e7e559807b265b5accefc7836029747a2f6f7c68a9698247e2f93b5c7a/bitsandbytes-cuda92-0.26.0.tar.gz"
+  - "https://files.pythonhosted.org/packages/27/7c/e6e0454531d8a45dba2463899687a93975af2eadc57d02f61ef4f1856a84/bitsandbytes-cuda100-0.26.0.tar.gz"
+  - "https://files.pythonhosted.org/packages/64/f4/a8dc04d97e67a7ed694712185650ff30ae2e0c0957ffe20d55d4501a18db/bitsandbytes-cuda101-0.26.0.tar.gz"
+  - "https://files.pythonhosted.org/packages/44/35/ab81d1064aeb603d313b97e4653b4634efc8e71979893e468cc563c472ed/bitsandbytes-cuda102-0.26.0.tar.gz"
+  - "https://files.pythonhosted.org/packages/fe/8e/e07cca9d1a78def1288f4b77e7a529ffe9eb07445a29892f141f2a271801/bitsandbytes-cuda110-0.26.0.tar.gz"
+  - "https://files.pythonhosted.org/packages/3c/54/74f9756c4f05d9720bfa0386de989e3649669f2a6558020dadcaf643da5a/bitsandbytes-cuda111-0.26.0.tar.gz"
+  - "https://files.pythonhosted.org/packages/ee/e7/70ee13093c6dabd1364d26364f19e3a88ba9dff9a4e732af3ff056aa740b/bitsandbytes-cuda112-0.26.0.tar.gz"
+  - "https://files.pythonhosted.org/packages/24/31/635e9b48a2eb0cce2bced5d140a79cb95c0b0981396ef76d4fd08c754952/bitsandbytes-cuda113-0.26.0.tar.gz"
+
+pkg_sha:
+  - "3f6b74e443da1e3c009929541db09d7df3618f7bdee42aa28819a468ccac7de1"
+  - "84ea9f9f40db3c60a6176cf2da19bd2709aca0a89efa5aab3cc5f915c2c255bc"
+  - "5f139ab38f6d5dd5f48cc85c1bab0e2f847574eefc7f9b0e52d731e7d49fe808"
+  - "ed77f89e95b4e56e4397fb69ae2e067c4756a1bb8db434dde24b3d55f5d3ccf0"
+  - "88d02f2446ad392cbc55e57d71d22918506ce5399d5dcc91b5d733abcd2ed2d9"
+  - "01a9628eee5d6858b666511114800ce2c5f9dc1252652946136db2fdde766762"
+  - "f364d431d2e14f17799d016894e1e5bea1ccbf4183cb3a82c737af07a064d0b7"
+  - "3ad8b7d1232a489afc4766a6a4fe6be27209d7195879cf0ba771219be4499889"
+
+zip_keys:
+  -
+    - "cuda_version"
+    - "pkg_url"
+    - "pkg_sha"
